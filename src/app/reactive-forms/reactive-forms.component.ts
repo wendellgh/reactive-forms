@@ -6,25 +6,25 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   templateUrl: './reactive-forms.component.html',
   styleUrls: ['./reactive-forms.component.scss']
 })
-export class ReactiveFormsComponent implements  OnInit{
+export class ReactiveFormsComponent implements OnInit {
 
-  public cadastroForm: FormGroup =this.formBuilder.group({
-    firstName:[''],
-    lastName:['']
+  public cadastroForm: FormGroup = this.formBuilder.group({
+    firstName: [''],
+    lastName: ['']
   })
 
-  constructor(private formBuilder: FormBuilder){}
+  constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    
+
   }
 
 
-  public submitForm(){
+  public submitForm() {
     console.log(this.cadastroForm.value);
     console.log(this.cadastroForm.value.firstName);
     console.log(this.cadastroForm.value.lastName);
-    
+
   }
 
 }

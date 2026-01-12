@@ -1,0 +1,24 @@
+.sidenav-container {
+  background-color: #1e293b; /* Azul escuro/grafite */
+  color: white;
+  width: 260px;
+  height: 100vh;
+}
+
+.active-link {
+  background-color: #f1f5f9 !important; /* Fundo branco/claro */
+  color: #1e293b !important;
+  border-radius: 12px;
+  margin: 0 10px;
+}
+
+.submenu {
+  padding-left: 25px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sub-icon {
+  font-size: 8px; /* Para fazer a bolinha pequena da imagem */
+  width: 8px;
+  height: 8px;
+}
